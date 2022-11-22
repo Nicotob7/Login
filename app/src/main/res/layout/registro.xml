@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Crear nueva cuenta "
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/RegUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Usuario"
+        android:layout_margin="20dp"
+        android:inputType="textEmailAddress"
+
+        />
+
+    <EditText
+        android:id="@+id/RegContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Password"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+
+        />
+
+    <EditText
+        android:id="@+id/RegNombre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Nombre"
+        android:layout_margin="20dp"
+        android:inputType="textPersonName"
+
+        />
+
+    <EditText
+        android:id="@+id/RegApellido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Apellidos"
+        android:layout_margin="20dp"
+        android:inputType="textPersonName"
+
+        />
+
+    <Button
+        android:id="@+id/btnRegRegistar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Registrar"
+        android:background="#ffad60"
+        android:layout_margin="20dp"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Cancelar "
+        android:background="#c68642"
+        android:layout_margin="20dp"
+        android:textColor="#FFFF"
+        android:textSize="50dp"
+        android:textStyle="bold"
+
+        />
+
+
+
+</LinearLayout>
